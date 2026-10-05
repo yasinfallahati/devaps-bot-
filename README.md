@@ -1,65 +1,44 @@
-<div align="center">
+```
+┌─────────────────────────────────────────┐
+│  $ devops-assistant --topic servers     │
+│  > CI · nginx · systemd · cloud trails  │
+└─────────────────────────────────────────┘
+```
 
-<img src="./assets/banner.svg" alt="DevOps Bot" width="100%" />
-
-</div>
+<p align="center"><img src="assets/hero.png" width="100%" alt="DevOps Bot"></p>
+<p align="center"><img src="assets/screenshot.png" width="90%" alt="UI screenshot"></p>
 
 # DevOps Bot
 
-HTML-based AI assistant UI specialized for DevOps and server topics — becomes useful once you add your AI API key.
+<p align="center">
+<img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+<img src="https://img.shields.io/badge/DevOps_focus-F97316?style=for-the-badge">
+<img src="https://img.shields.io/badge/BYO_API_Key-0F172A?style=for-the-badge">
+</p>
 
----
+A single HTML AI console **biased toward infrastructure questions** — systemd, reverse proxies, CI, cloud ops — once you supply your own model API key.
 
-## English
-
-
-
-### Features
-
-- Single HTML client for an AI DevOps assistant
-- Configure API credentials in the UI settings
-- Focused on server / DevOps Q&A workflows
-
-### Stack
-
-HTML · JavaScript · AI API
-
-### Getting started
+## Launch
 
 ```bash
-git clone https://github.com/yasinfallahati/devaps-bot-.git
-cd devaps-bot-
-# open "devaps bot.html" in a browser and set your API key
+xdg-open "devaps bot.html"
+# or serve:
+python3 -m http.server 8090
 ```
+
+Open the file, set the key in the UI, ask about the incident you’re debugging.
 
 ---
 
-## فارسی
+## فارسی — ربات دواپس
 
-### ربات دواپس
+دستیار AI مبتنی بر HTML با تمرکز موضوعی روی **سرور، CI و زیرساخت**. تا وقتی کلید API خودتان را نگذارید، فقط یک پوسته است؛ بعد از تنظیم، برای عیب‌یابی سریع روی لپ‌تاپ مفید می‌شود.
 
-رابط HTML دستیار هوش مصنوعی متخصص دواپس و سرور — با افزودن API فعال می‌شود.
+### اجرا
 
+فایل «`devaps bot.html`» را در مرورگر باز کنید و کلید را تنظیم کنید.
 
+### مخاطب
 
-### امکانات
-
-- کلاینت HTML برای دستیار AI دواپس
-- تنظیم API در بخش تنظیمات
-- متمرکز بر پرسش‌وپاسخ سرور و DevOps
-
-### تکنولوژی‌ها
-
-HTML · JavaScript · AI API
-
-### شروع کار
-
-```bash
-git clone https://github.com/yasinfallahati/devaps-bot-.git
-cd devaps-bot-
-# فایل «devaps bot.html» را باز کنید و API را تنظیم کنید
-```
-
----
-
-`#devops` `#ai` `#html` `#assistant` `#server`
+مهندسان و علاقه‌مندانی که می‌خواهند یک چت‌باکس سبکِ «devops-flavored» بدون نصب سنگین داشته باشند — نه جایگزین runbook رسمی تیم.
